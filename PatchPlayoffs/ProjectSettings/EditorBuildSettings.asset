@@ -4,5 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 069dfe09945114b2f931b649bced5374
+  - enabled: 1
+    path: Assets/Scenes/gameScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 21f8dcb583464451a8d5b88b64c581bb
+  - enabled: 1
+    path: Assets/Scenes/LoseScreen.unity
+    guid: 91864de0278814b898c5d4073d7979ad
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 9ec0c4263058f4b618fa835af34d109f
+>>>>>>> Stashed changes
   m_configObjects: {}
