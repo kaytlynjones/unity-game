@@ -14,4 +14,9 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void onBackButton()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
 }
