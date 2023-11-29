@@ -6,6 +6,7 @@ TagManager:
   tags:
   - scoreText
   - Ball
+  - timer
   layers:
   - Default
   - TransparentFX
