@@ -5,6 +5,7 @@ using TMPro;
 public class Goal : MonoBehaviour
 {
     public TMP_Text scoreText;
+    public Rigidbody rb;
     int score;
     // Start is called before the first frame update
     void Awake() {
@@ -16,7 +17,9 @@ public class Goal : MonoBehaviour
            
             score++;
             scoreText.text = "Score: " + score;
-            other.transform.position = new Vector3(-3.134753f, 5.310856f, -1.361157f);
+            rb.position = new Vector3(-10f, 1.478365f, -5f);
+            rb.velocity = new Vector3(0,0,0);
+            rb.rotation = Quaternion.identity;
         }
     }
 }
