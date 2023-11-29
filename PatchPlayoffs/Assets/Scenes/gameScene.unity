@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!114 &304440345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +943,7 @@ GameObject:
   - component: {fileID: 1776536263}
   - component: {fileID: 1776536262}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: GoalCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -961,6 +962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 304440345}
+  rb: {fileID: 842190546}
 --- !u!65 &1776536263
 BoxCollider:
   m_ObjectHideFlags: 0
