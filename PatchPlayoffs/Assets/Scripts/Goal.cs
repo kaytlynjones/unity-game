@@ -4,12 +4,10 @@ using UnityEngine;
 using TMPro;
 public class Goal : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText;
+    public TMP_Text scoreText;
     int score;
     // Start is called before the first frame update
     void Awake() {
-        scoreText = GetComponent<TextMeshProUGUI>();
-        // Debug.Log(scoreText);
         score = 0;
     }
     void OnTriggerEnter(Collider other) {
@@ -17,11 +15,8 @@ public class Goal : MonoBehaviour
             //goal scored
            
             score++;
-            // scoreText = GetComponent<TextMeshProUGUI>();
-            Debug.Log("Score" + score);
-            Debug.Log(scoreText);
             scoreText.text = "Score: " + score;
-           
+            other.transform.position = new Vector3(-3.134753f, 5.310856f, -1.361157f);
         }
     }
 }
