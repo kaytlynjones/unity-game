@@ -20,6 +20,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public void toWinScreen()
     {
@@ -34,6 +35,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("ControlsScreen");
     }
+=======
+>>>>>>> parent of 656cf17 (added access to controls scene)
 =======
 >>>>>>> parent of 656cf17 (added access to controls scene)
 }
