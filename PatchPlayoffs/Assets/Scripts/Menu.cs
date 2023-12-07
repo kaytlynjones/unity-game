@@ -20,6 +20,15 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 
+    public void toWinScreen()
+    {
+        SceneManager.LoadScene("WinScreen");
+    }
+
+    public void toLoseScreen()
+    {
+        SceneManager.LoadScene("LoseScreen");
+=======
     public void onControlsButton()
     {
         SceneManager.LoadScene("ControlsScreen");
