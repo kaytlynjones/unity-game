@@ -10,8 +10,10 @@ public class Goal : MonoBehaviour {
     // Start is called before the first frame update
     void Awake() {
         score = 0;
+        // Debug.Log(rb.position);
     }
     void OnTriggerEnter(Collider other) {
+        // Debug.Log(rb.position);
         if (other.gameObject.CompareTag("Ball")){
             //goal scored
             score++;
@@ -19,7 +21,7 @@ public class Goal : MonoBehaviour {
                 SceneManager.LoadScene("WinScreen");
             }
             scoreText.text = "Score: " + score;
-            rb.position = new Vector3(-1.78369f, 2f, -5f);
+            rb.position = new Vector3(-81.8f, 3.33f, 2.34f);
             rb.velocity = new Vector3(0,0,0);
             // rb.rotation = Quaternion.identity;
         }
