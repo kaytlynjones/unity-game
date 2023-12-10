@@ -19,9 +19,8 @@ public class Goal : MonoBehaviour {
                 SceneManager.LoadScene("WinScreen");
             }
             scoreText.text = "Score: " + score;
-            rb.position = new Vector3(-1.78369f, 2f, -5f);
+            rb.position = new Vector3(-51.88f, 5.43f, -104.64f);
             rb.velocity = new Vector3(0,0,0);
-            // rb.rotation = Quaternion.identity;
         }
     }
 }
