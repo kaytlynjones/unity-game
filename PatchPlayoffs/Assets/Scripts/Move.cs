@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        moveSpeed = 5f;
+        moveSpeed = 7f;
         rotateSpeed = 100f;
     }
 
