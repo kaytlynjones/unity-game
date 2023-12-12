@@ -17,7 +17,7 @@ public class Goal : MonoBehaviour {
         if (other.gameObject.CompareTag("Ball")){
             //goal scored
             score++;
-            if (score == 1) {
+            if (score == 3) {
                 cutscenePlayer.Play();
                 StartCoroutine(WaitTime());
             }
