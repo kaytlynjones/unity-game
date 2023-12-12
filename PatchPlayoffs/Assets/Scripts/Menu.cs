@@ -5,14 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // private Timer timer;
-
-    void Awake() {
-        // timer = new Timer();
-    }
     public void OnPlayButton()
     {
-        // timer.setStartTime(Time.time);
         SceneManager.LoadScene("gameScene");
     }
 

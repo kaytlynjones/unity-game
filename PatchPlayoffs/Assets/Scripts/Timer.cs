@@ -10,30 +10,10 @@ public class Timer : MonoBehaviour
     float t;
     public float timeLeft = 60f;
     string seconds;
-    // public float startTime;
     public static bool TimesUp = false;
-
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-        // startTime = Time.time;
-    }
-
     // Update is called once per frame
     void Update()
     {
-        // t = Time.time + startTime;
-        // seconds = (t%60).ToString("f2");
-        // timer.text = seconds + "s";
-
-        // if(t % 60 > 59) {
-        //     // t = 0;
-        //     // startTime = 0;
-        //     // startTime = Time.time;
-        //     SceneManager.LoadScene("LoseScreen");
-        // }
-
         t = timeLeft -= Time.deltaTime;
         seconds = (t%60).ToString("f2");
         timer.text = seconds + "s";
@@ -49,8 +29,4 @@ public class Timer : MonoBehaviour
             Debug.Log(timeLeft);
         }
     }
-
-    // public void setStartTime(float newTime) {
-    //     startTime = newTime;
-    // }
 }
