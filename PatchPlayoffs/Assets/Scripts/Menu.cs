@@ -29,4 +29,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("LoseScreen");
     }
+
+    public void onControlsScreen() {
+        SceneManager.LoadScene("ControlsScreen");
+    }
 }

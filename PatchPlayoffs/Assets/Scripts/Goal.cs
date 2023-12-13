@@ -28,7 +28,7 @@ public class Goal : MonoBehaviour {
 
         IEnumerator WaitTime()
         {
-            yield return new WaitForSecondsRealtime(2f);
+            yield return new WaitForSecondsRealtime(2.25f);
             SceneManager.LoadScene("WinScreen");
         }
     }
