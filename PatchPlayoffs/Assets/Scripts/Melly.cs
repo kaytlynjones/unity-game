@@ -11,7 +11,7 @@ public class Melly : MonoBehaviour
     void Start()
     {
         speed = 1f;
-        maxMove = .1f;
+        maxMove = .3f;
     }
 
     // Update is called once per frame
